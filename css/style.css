@@ -1,14 +1,24 @@
-/* reset */
+/* debug layout*/
+.row {
+    border: 1px solid #0a1238;
+    background-color: #6f85f3;
+    min-height: 4rem;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-/*  generics */
+[class^="col"] {
+    border: 1px solid #414413;
+    background-color: #ceda2e;
+    min-height: 2rem;
+}
 
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
+/* layout */
+
+header [class^="col"] {
+    vertical-align: middle;
+    line-height: 3.5rem;
+}
+
+header .row [class^="col"]:last-child {
+    text-align: right;
 }
