@@ -12,13 +12,29 @@
     min-height: 2rem;
 }
 
-/* layout */
-
-header [class^="col"] {
-    vertical-align: middle;
-    line-height: 3.5rem;
+section {
+    border: 1px dashed rgb(133, 243, 219);
 }
 
-header .row [class^="col"]:last-child {
-    text-align: right;
+.container {
+    border: 1px solid #6c36b4;
+}
+
+.div {
+    border: 1px dashed rgb(216, 234, 241)
+}
+
+/* layout */
+
+
+
+}
+
+#jumbotron {
+    min-height: 20rem;
+}
+
+
+#portfolio [class^="col"] {
+    min-height: 8rem;
 }
