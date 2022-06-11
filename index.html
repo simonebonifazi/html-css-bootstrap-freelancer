@@ -13,37 +13,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header class="container-fluid">
-        <div class="row align-items-center justify-content-between">
-            <div class="col"> START BOOTSTRAP </div>
-            <div class="col text-end ">
+<body class="debug">
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
 
-                <i class="d-md-none"> iconcina i </i>
+            <div class="row ">
+                <div class="col text-md-center text-white"> <a href="#" class="text-white text-decoration-none"> START
+                        BOOTSTRAP </a> </div>
+                <div class="col text-end text-md-center ">
 
-                <ul class="list-inline d-none d-md-block">
-                    <li class="list-inline-item"> <a class=" text-white text-decoration-none" href="#"> profilo </a>
-                    </li>
-                    <li class="list-inline-item"> <a class=" text-white text-decoration-none" href="#"> about</a>
-                    </li>
-                    <li class="list-inline-item"> <a class=" text-white text-decoration-none" href="#"> contact </a>
-                    </li>
-                </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list text-white d-md-none" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+
+                    <ul class="list-inline d-none d-md-block mb-0">
+                        <li class="list-inline-item"> <a class=" text-white text-decoration-none" href="#"> Profilo </a>
+                        </li>
+                        <li class="list-inline-item"> <a class=" text-white text-decoration-none" href="#"> About</a>
+                        </li>
+                        <li class="list-inline-item"> <a class=" text-white text-decoration-none" href="#"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
     <!-- jumbotron -->
     <section id="jumbotron">
-        <div class="container-fluid">
+        <div class="container-fluid text-center text-white">
             <div class="row">
                 <div class="col">
-                </div>
-                <figure><img src="#" alt="happy boy"></figure>
-                <div class="caption">
-                    <h1>
-                    </h1>
-                    <!--i/span/p  -->
-                    <p></p>
+                    <img src="./img/avatar.svg" alt="happy boy">
+                    <div class="caption">
+                        <h1 class="mt-2"> START BOOTSTRAP
+                        </h1>
+                        <!--i/span/p  -->
+                        <p> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,15 +61,25 @@
         <section id="portfolio">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-12"> stellina e tratto</div>
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <h1> PORTFOLIO</h1>
+                    </div>
                 </div>
                 <div class="row ">
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
+                    <div class="col-12 col-md-6 col-lg-4"> <img src="./img/cabin.png" alt="cabin"
+                            class="rounded-4 mb-4 mb-4">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4"> <img src="./img/cake.png" alt="cake" class="rounded-4 mb-4">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4"> <img src="./img/circus.png" alt="circus"
+                            class="rounded-4 mb-4">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4"> <img src="./img/game.png" alt="game" class="rounded-4 mb-4">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4"> <img src="./img/safe.png" alt="safe" class="rounded-4 mb-4">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4"> <img src="./img/submarine.png" alt=" submarine"
+                            class="rounded-4 mb-4"></div>
                 </div>
             </div>
         </section>
@@ -69,12 +87,19 @@
         <section id="about">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col"> </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <h1> ABOUT</h1>
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-12 col-md-6 offset-lg-1 col-lg-5"></div>
-                    <div class="col-12 col-md-6 col-lg-5"></div>
+                    <div class="col-12 col-md-6 offset-lg-1 col-lg-5 mb-4"> Freelancer is a free bootstrap theme created
+                        by
+                        Start Bootstrap. The downloads includes the complete source file including HTML, CSS, and
+                        JavaScript as well as optional LESS stylesheets for easy customization </div>
+                    <div class="col-12 col-md-6 col-lg-5 mb-4"> Wheter you're a student looking to showcase your work, a
+                        professional looking to attract clients, or a graphic artist looking to share your projects,
+                        this template is the perfect starting point! </div>
                 </div>
                 <button> questo è un bottone</button>
             </div>

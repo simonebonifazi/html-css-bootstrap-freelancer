@@ -1,27 +1,27 @@
 /* debug layout*/
-.row {
+.debug .row {
     border: 1px solid #0a1238;
     background-color: #6f85f3;
     min-height: 4rem;
 
 }
 
-[class^="col"] {
+.debug [class^="col"] {
     border: 1px solid #414413;
     background-color: #ceda2e;
     min-height: 2rem;
 }
 
-section {
+.debug section {
     border: 1px dashed rgb(133, 243, 219);
     background-color: rgb(36, 184, 60);
 }
 
-.container {
+.debug .container {
     border: 1px solid #6c36b4;
 }
 
-.div {
+.debug .div {
     border: 1px dashed rgb(216, 234, 241)
 }
 
@@ -35,4 +35,32 @@ section {
 
 #portfolio [class^="col"] {
     min-height: 8rem;
+}
+
+/* styling */
+
+header {
+    background-color: #2C3E50;
+    height: 3rem;
+}
+
+#jumbotron {
+    background-color: #1ABC9C;
+}
+
+#jumbotron img {
+    max-width: 200px;
+}
+
+#portfolio h1 {
+    color: #333333;
+}
+
+#portfolio img {
+    max-width: 100%;
+}
+
+#about {
+    background-color: #1ABC9C;
+    color: #fff;
 }
