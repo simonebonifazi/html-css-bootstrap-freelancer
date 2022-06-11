@@ -52,7 +52,8 @@ header {
     max-width: 200px;
 }
 
-#portfolio h1 {
+#portfolio h1,
+#contact-me h1 {
     color: #333333;
 }
 
