@@ -1,49 +1,12 @@
-/* debug layout*/
-/* .debug .row {
-    border: 1px solid #0a1238;
-    background-color: #6f85f3;
-    min-height: 4rem;
-
-}
-
-.debug [class^="col"] {
-    border: 1px solid #414413;
-    background-color: #ceda2e;
-    min-height: 2rem;
-}
-
-.debug section {
-    border: 1px dashed rgb(133, 243, 219);
-    background-color: rgb(36, 184, 60);
-}
-
-.debug .container {
-    border: 1px solid #6c36b4;
-}
-
-.debug .div {
-    border: 1px dashed rgb(216, 234, 241)
-} */
-
-/* layout */
-
-
-#jumbotron {
-    min-height: 20rem;
-}
-
-
-#portfolio [class^="col"] {
-    min-height: 8rem;
-}
-
 /* styling */
 
+/* header */
 header {
     background-color: #2C3E50;
     height: 3rem;
 }
 
+/*  jumbotron */
 #jumbotron {
     background-color: #1ABC9C;
 }
@@ -51,6 +14,8 @@ header {
 #jumbotron img {
     max-width: 200px;
 }
+
+/* portfolio */
 
 #portfolio h1,
 #contact-me h1 {
@@ -66,11 +31,26 @@ header {
     color: #2C3E50;
 }
 
+/* about */
 #about {
     background-color: #1ABC9C;
     color: #fff;
 }
 
+
+/* contact me  */
+#contact-me .my_border {
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+    border-radius: 0;
+}
+
+#contact-me .btn.btn-primary {
+    background-color: #1ABC9C;
+    border: none;
+}
+
+/* find us */
 #find-us {
     background-color: #3A546D;
     color: #fff;
@@ -84,16 +64,6 @@ header {
     padding: 5px;
 }
 
-#contact-me .my_border {
-    border: none;
-    border-bottom: 1px solid #D2D2D2;
-    border-radius: 0;
-}
-
-#contact-me .btn.btn-primary {
-    background-color: #1ABC9C;
-}
-
 #find-us .fa-brands {
     width: 34px;
     height: 34px;
@@ -103,6 +73,7 @@ header {
     color: #1ABC9C;
 }
 
+/* footer */
 footer {
     background-color: #2C3E50;
     height: 75px;
