@@ -1,5 +1,5 @@
 /* debug layout*/
-.debug .row {
+/* .debug .row {
     border: 1px solid #0a1238;
     background-color: #6f85f3;
     min-height: 4rem;
@@ -23,7 +23,7 @@
 
 .debug .div {
     border: 1px dashed rgb(216, 234, 241)
-}
+} */
 
 /* layout */
 
@@ -101,4 +101,9 @@ header {
 
 #find-us .start-b {
     color: #1ABC9C;
+}
+
+footer {
+    background-color: #2C3E50;
+    height: 75px;
 }
