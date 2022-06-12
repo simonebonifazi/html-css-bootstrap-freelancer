@@ -61,7 +61,25 @@ header {
     max-width: 100%;
 }
 
+#portfolio .special,
+#contact-me .spacial {
+    color: #2C3E50;
+}
+
 #about {
     background-color: #1ABC9C;
     color: #fff;
+}
+
+#find-us {
+    background-color: #3A546D;
+    color: #fff;
+}
+
+.fa-minus {
+    margin: -1px;
+}
+
+.fa-star {
+    padding: 5px;
 }
