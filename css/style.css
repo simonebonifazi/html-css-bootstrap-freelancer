@@ -83,3 +83,22 @@ header {
 .fa-star {
     padding: 5px;
 }
+
+#contact-me .my_border {
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+    border-radius: 0;
+}
+
+#contact-me .btn.btn-primary {
+    background-color: #1ABC9C;
+}
+
+#find-us .fa-brands {
+    width: 34px;
+    height: 34px;
+}
+
+#find-us .start-b {
+    color: #1ABC9C;
+}

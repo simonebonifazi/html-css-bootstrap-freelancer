@@ -126,13 +126,13 @@
                 </div>
 
                 <div class="row">
-                    <div class="offset-2 col-8 offset-md-1 col-md-5 offset-lg-1 col-lg-5 mb-4 mt-4"> Freelancer is a
+                    <div class="offset-2 col-8 offset-md-1 col-md-5 offset-lg-1 col-lg-5 mb-4 mt-4 p-3"> Freelancer is a
                         free bootstrap
                         theme created
                         by
                         Start Bootstrap. The downloads includes the complete source file including HTML, CSS, and
                         JavaScript as well as optional LESS stylesheets for easy customization </div>
-                    <div class="offset-2 col-8 offset-md-0 col-md-5 col-lg-5 mb-4 mt-4" offset-md-0> Wheter
+                    <div class="offset-2 col-8 offset-md-0 col-md-5 col-lg-5 mb-4 mt-4 p-3" offset-md-0> Wheter
                         you're a student looking
                         to
                         showcase
@@ -144,7 +144,8 @@
 
                     <div class="col-12 d-flex justify-content-center">
 
-                        <button type="button" class="btn btn-outline-light"> <i class="fa-solid fa-download"></i>
+                        <button type="button" class="btn btn-outline-light p-2 mb-3"> <i
+                                class="fa-solid fa-download"></i>
                             Download</button>
                     </div>
                 </div>
@@ -173,27 +174,60 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- inserire il form -->
-            <div class="row ">
-                <div class="col">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="email" class="form-control">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <!-- inserire il form -->
+                <div class="row ">
+                    <div class="col offset-2 col-8 offset-md-1 col-md-10">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label ">Name</label>
+                                <input type="text" class="form-control my_border" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Email-Address" class="form-label ">Email Address</label>
+                                <input type="email" class="form-control my_border" id="Email-Address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone-number" class="form-label ">Phone Number </label>
+                                <input type="text" class="form-control my_border" id="phone-number">
+                            </div>
+                            <div class="form-label mb-3">
+                                <label for="message">Message </label>
+                                <textarea class="form-control my_border" id="message" style="height: 100px"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mb-4">Send</button>
+                        </form>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- find us -->
         <section id="find-us">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 ">prova</div>
-                    <div class="col-12 col-md-4 ">prova</div>
-                    <div class="col-12 col-md-4 ">prova</div>
+                <div class="row text-white text-center">
+                    <div class="col-12 col-md-4 p-3 mt-2 ">
+                        <h4>LOCATION</h4>
+                        <p> 2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4 p-3 mt-2">
+                        <h4>AROUND THE WEB</h4>
+                        <p>
+                            <span><i
+                                    class="fa-brands  border border-white rounded-circle p-2 m-1 fa-facebook-f"></i></span>
+                            <span> <i
+                                    class="fa-brands  border border-white rounded-circle p-2 m-1 fa-google-plus-g"></i></span>
+                            <span><i
+                                    class="fa-brands  border border-white rounded-circle p-2 m-1 fa-twitter"></i></span>
+                            <span><i
+                                    class="fa-brands border border-white rounded-circle p-2 m-1 fa-linkedin-in"></i></span>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 p-3 mt-2 ">
+                        <h4>ABOUT FREELANCER</h4>
+                        <p> Freelance is a free to use, open source Bootstrap theme created by <a
+                                class="start-b text-decoration-none">
+                                Start Bootstrap </a></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -202,8 +236,12 @@
     <footer>
         <div class="container-fluid">
 
-            <div class="row align-items-center ">
-                <div class=" offset-5 col-2">testo</div>
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center">
+
+                    <p class="fs-6 text-white">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
